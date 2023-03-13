@@ -24,6 +24,9 @@ public class WeatherForecastController : ControllerBase
     public IEnumerable<WeatherForecast> Get()
     {
         Console.WriteLine(1);
+        Console.WriteLine(2);
+        Console.WriteLine(3);
+        Console.WriteLine(4);
     
         return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
