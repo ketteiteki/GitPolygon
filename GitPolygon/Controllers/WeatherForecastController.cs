@@ -16,7 +16,7 @@ public class WeatherForecastController : ControllerBase
 
     private readonly ILogger<WeatherForecastController> _logger;
 
-    private readonly int Code2 = 432431;
+    private static readonly int Code = 31432432;
 
     public WeatherForecastController(ILogger<WeatherForecastController> logger)
     {
