@@ -11,12 +11,9 @@ public class WeatherForecastController : ControllerBase
         "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
     };
 
-    private static readonly int Code = 314324;
-    private static readonly int Code2 = 4432;
+    private static readonly int Code = 123;
 
     private readonly ILogger<WeatherForecastController> _logger;
-
-    private static readonly int Code = 31432432;
 
     public WeatherForecastController(ILogger<WeatherForecastController> logger)
     {
