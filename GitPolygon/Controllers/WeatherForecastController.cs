@@ -8,7 +8,7 @@ public class WeatherForecastController : ControllerBase
 {
     private static readonly string[] Summaries = new[]
     {
-        "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering"
+        "Chi3232lly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering"
     };
 
     private readonly ILogger<WeatherForecastController> _logger;
@@ -24,6 +24,8 @@ public class WeatherForecastController : ControllerBase
         Console.WriteLine(1);
         Console.WriteLine(2);
     
+        Console.WriteLine(5454);
+        
         return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateTime.Now.AddDays(index),
