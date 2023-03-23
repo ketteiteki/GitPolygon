@@ -8,7 +8,7 @@ public class WeatherForecastController : ControllerBase
 {
     private static readonly string[] Summaries = new[]
     {
-        "Freezin3333333333333g", "Bracing", "Hot", "Sweltering", "221", "434355"
+        "Freezin3333333333333g", "Bracing", "Hot", "Sweltering", "225555551", "321314343"
     };
 
     private static readonly int Code = 12342;
