@@ -8,10 +8,8 @@ public class WeatherForecastController : ControllerBase
 {
     private static readonly string[] Summaries = new[]
     {
-        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "221", "4343"
+        "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering"
     };
-
-    private static readonly int Code = 12342;
 
     private readonly ILogger<WeatherForecastController> _logger;
 
@@ -24,7 +22,6 @@ public class WeatherForecastController : ControllerBase
     public IEnumerable<WeatherForecast> Get()
     {
         Console.WriteLine(1);
-        Console.WriteLine(2);
         Console.WriteLine(2);
     
         return Enumerable.Range(1, 5).Select(index => new WeatherForecast
