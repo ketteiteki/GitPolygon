@@ -26,6 +26,9 @@ public class WeatherForecastController : ControllerBase
         Console.WriteLine(1);
         Console.WriteLine(432432);
         Console.WriteLine(2);
+
+        
+        Console.WriteLine(11111111);
     
         return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
