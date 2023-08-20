@@ -21,7 +21,7 @@ public class WeatherForecastController : ControllerBase
     [HttpGet(Name = "GetWeatherForecast")]
     public IEnumerable<WeatherForecast> Get()
     {
-        Console.WriteLine(1); // commit 1
+        Console.WriteLine(3); // commit 3
         
         return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
