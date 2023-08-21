@@ -22,6 +22,7 @@ public class WeatherForecastController : ControllerBase
     public IEnumerable<WeatherForecast> Get()
     {
         Console.WriteLine(4); // commit 4
+        Console.WriteLine(5); // commit 5
         
         return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
